@@ -4,6 +4,7 @@
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "description": "Monstrously fast TypeScript library for generating JSON Patch (RFC 6902) diffs between JSON objects",
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
@@ -18,11 +19,20 @@
     "patch",
     "rfc6902",
     "fast",
-    "performance"
+    "performance",
+    "typescript",
+    "json-patch"
   ],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Sylphx <hi@sylphx.com> (https://sylphx.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SylphxAI/zen-json-patch.git"
+  },
+  "homepage": "https://github.com/SylphxAI/zen-json-patch#readme",
+  "bugs": {
+    "url": "https://github.com/SylphxAI/zen-json-patch/issues"
+  },
   "devDependencies": {
     "@size-limit/esbuild": "^11.2.0",
     "@size-limit/file": "^11.2.0",
