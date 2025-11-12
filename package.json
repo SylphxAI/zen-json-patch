@@ -8,10 +8,11 @@
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
-    "build": "tsup src/index.ts --format esm,cjs --minify --sourcemap --dts",
+    "build": "bunup",
     "bench": "vitest bench --run",
     "size": "npm run build && size-limit",
-    "prepublishOnly": "npm run build && npm run size"
+    "prepublishOnly": "npm run build && npm run size",
+    "test:cov": "vitest run --coverage"
   },
   "keywords": [
     "json",
@@ -37,6 +38,7 @@
     "@size-limit/esbuild": "^11.2.0",
     "@size-limit/file": "^11.2.0",
     "@types/node": "^22.14.1",
+    "@vitest/coverage-v8": "^4.0.8",
     "deep-diff": "^1.0.2",
     "fast-json-diff": "^0.0.6",
     "fast-json-patch": "^3.1.1",
@@ -47,6 +49,8 @@
     "size-limit": "^11.2.0",
     "tsup": "^8.4.0",
     "typescript": "^5.8.3",
-    "vitest": "^3.1.1"
-  }
+    "vitest": "^3.1.1",
+    "@sylphx/bunup": "latest"
+  },
+  "deprecated": "This package is archived. Use @sylphx/craft instead."
 }

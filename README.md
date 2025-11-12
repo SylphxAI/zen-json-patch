@@ -8,11 +8,19 @@
 [![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://github.com/SylphxAI/zen-json-patch/blob/main/LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 
-**RFC 6902 compliant** • **Type-safe** • **Zero dependencies** • **Blazing fast**
+**ARCHIVED** • **RFC 6902 compliant** • **Type-safe** • **Zero dependencies** • **Blazing fast**
 
 [Installation](#-installation) • [Quick Start](#-quick-start) • [API](#-api) • [Benchmarks](#-benchmarks)
 
 </div>
+
+---
+
+## ⚠️ ARCHIVED
+
+**This project is archived and no longer actively maintained.**
+
+**Recommended alternative:** Use `@sylphx/craft` instead, which provides comprehensive immutable state management with JSON Patch support built-in.
 
 ---
 

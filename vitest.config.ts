@@ -10,5 +10,15 @@ export default defineConfig({
       outputFile: './bench/report.json', // Optional: Output benchmark results to a file
       // reporters: ['verbose'], // Use verbose reporter for benchmarks
     },
+    coverage: {
+      provider: 'v8',
+      reporter: ['text', 'json', 'html', 'lcov'],
+      reportsDirectory: './coverage',
+      include: ['src/**/*.ts'],
+      exclude: [
+        'src/index.ts',
+        '**/*.d.ts',
+      ],
+    },
   },
 });

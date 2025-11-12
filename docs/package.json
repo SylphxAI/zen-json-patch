@@ -1,0 +1,14 @@
+{
+  "name": "zen-json-patch-docs",
+  "version": "1.0.0",
+  "description": "Documentation for zen-json-patch",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0"
+  }
+}
